@@ -1,0 +1,55 @@
+*{
+    transition: 0.5s;
+}
+
+html{
+    overflow: hidden;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+button{
+    margin-top: 5px;
+    width: 50%;
+}
+
+iframe{
+    width: 100vw;
+    height: 100vh;
+    border: none;
+}
+
+img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#splitBar{
+    width: 30%;
+    margin: 10px;
+    border: 0.2px solid black; 
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px black;
+}
+
+#contentImg{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
