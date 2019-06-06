@@ -57,8 +57,8 @@ window.onload = function () {
     }
 
     function animationPositive() {
-        imgWiki.style.width = "0%"
-        imgWiki.style.height = "0%"
+        imgWiki.style.width = "0px"
+        imgWiki.style.height = "0px"
         imgWiki.style.margin = "0px"
         contentImg.style.flexDirection = "row"
         contentImg.style.justifyContent = "center"
